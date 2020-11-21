@@ -3,6 +3,7 @@ Pod::Spec.new do |spec|
   spec.version      = '3.0.0'
   spec.license      =  { :type => 'Apache 2',  }
   spec.homepage     = 'http://texturegroup.org'
+  sepc.static_framework = true
   spec.authors      = { 'Huy Nguyen' => 'hi@huynguyen.dev', 'Garrett Moon' => 'garrett@excitedpixel.com', 'Scott Goodson' => 'scottgoodson@gmail.com', 'Michael Schneider' => 'mischneider1@gmail.com', 'Adlai Holler' => 'adlai@icloud.com' }
   spec.summary      = 'Smooth asynchronous user interfaces for iOS apps.'
   spec.source       = { :git => 'https://github.com/TextureGroup/Texture.git', :tag => spec.version.to_s }
